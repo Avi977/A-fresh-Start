@@ -64,14 +64,11 @@ new_cards= int(input ("Enter the number of new credit cards you have appllied to
 number_of_cards= int (input("How many credit cards do you currently possess?\n"))
 #for each card, ask for details
 for i in range (number_of_cards):
-    payment_history.append( int(input(f"\nEnter the payment history for card number {i+1} : ")))
+    payment_history.append( int(input(f"\nRate the payment history for card number {i+1} (0-10) : ")))
     amount_per_card=(int(input(f"Enter the amount you owe in credit for card number {i+1} : ")))
     credit_line=(int(input(f"Enter the credit line for card number {i+1} :")))
     history_length.append(int(input(f"Enter the time your account (card number {i+1} has been active for in months :")))
     credit_owed.append((amount_per_card/credit_line) *100) #credit owed percentage
 
-print(payment_history)
-print(credit_owed)
-print(history_length)
 print_all_average()
 get_score()

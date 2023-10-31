@@ -1,5 +1,4 @@
 #Part 2 Analyzing Spending
-
 from prettytable import PrettyTable
 import numpy as np
 import random

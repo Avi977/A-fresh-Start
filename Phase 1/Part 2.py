@@ -28,7 +28,7 @@ fresh_produce=np.array(["Apples","Bananas","Strawberries","Avocados","Bell Peppe
 snacks=["Crackers","Nuts","Quick Oats","Popcorn","Tortilla Chips","Cereal"]
 items_array=np.array(["Crackers","Nuts","Quick Oats","Popcorn","Tortilla Chips","Cereal","Apples","Bananas","Strawberries","Avocados","Bell Peppers","Carrot","Garlic","Lemons/Limes","Onion","Parsley","Cilantro","Spinach","Tomatoes",'Video games','Meat','Potatoes','Mushroom','Water','Internet','Gas','Electricity','Netflix','McDonalds'])
 price_array=np.random.randint(10,70,size =29)
-frequency_array=np.random.randint(10,size =29) # 13 random numbers until 100
+frequency_array=np.random.randint(10,size =29) 
 moneyspent_array=price_array*frequency_array
 total_spent=moneyspent_array.sum()
 
